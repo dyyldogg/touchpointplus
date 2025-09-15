@@ -25,8 +25,7 @@ function Footer() {
         <div className="flex flex-col md:flex-row gap-4 md:items-center md:justify-between">
           <div>
             <div className="font-medium text-gray-900">TouchPointPlus, LLC</div>
-            <div>1209 MOUNTAIN ROAD PL NE STE R</div>
-            <div>ALBUQUERQUE, NM, 87110, USA</div>
+            <div>1940 Haste St, Berkeley, CA 94704 Apartment #B</div>
             <div>Phone: (310) 907-5746</div>
             <div>Email: hello@touchpoint.plus</div>
           </div>
@@ -211,7 +210,7 @@ function Privacy() {
       <h2>Changes</h2>
       <p>We may update this policy. Material changes will be reflected here with an updated date.</p>
       <h2>Contact</h2>
-      <p>TouchPointPlus, LLC, 1209 MOUNTAIN ROAD PL NE STE R, ALBUQUERQUE, NM, 87110, USA. Email: hello@touchpoint.plus. Phone: (310) 907-5746.</p>
+      <p>TouchPointPlus, LLC, 1940 Haste St, Berkeley, CA 94704 Apartment #B. Email: hello@touchpoint.plus. Phone: (310) 907-5746.</p>
     </div>
   )
 }
