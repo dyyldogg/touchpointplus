@@ -9,6 +9,7 @@ function Header() {
         </Link>
         <nav className="flex items-center gap-6 text-sm text-gray-700">
           <Link to="/services" className="hover:text-brand">Services</Link>
+          <Link to="/signup" className="hover:text-brand">Sign Up</Link>
           <Link to="/contact" className="hover:text-brand">Contact</Link>
           <Link to="/privacy" className="hover:text-brand">Privacy</Link>
           <Link to="/terms" className="hover:text-brand">Terms</Link>
@@ -53,7 +54,7 @@ function Home() {
             TouchPointPlus helps real estate agents win more listings and leads with conversion-focused websites, accurate Google Business Profiles, and ROI-driven Google Ads.
           </p>
           <div className="mt-8 flex gap-4">
-            <Link to="/contact" className="inline-flex items-center rounded-md bg-brand px-5 py-3 text-white hover:bg-brand-dark">
+            <Link to="/signup" className="inline-flex items-center rounded-md bg-brand px-5 py-3 text-white hover:bg-brand-dark">
               Get Started
             </Link>
             <Link to="/services" className="inline-flex items-center rounded-md border px-5 py-3 text-gray-900 hover:bg-gray-50">
@@ -105,7 +106,7 @@ function Home() {
             <div className="p-4 border rounded-md"><div className="font-semibold">Timeline</div><div className="text-gray-700">Go live in 5–7 days.</div></div>
           </div>
           <div className="mt-8">
-            <Link to="/contact" className="inline-flex items-center rounded-md bg-brand px-6 py-3 text-white hover:bg-brand-dark">Claim Your Market Plan</Link>
+            <Link to="/signup" className="inline-flex items-center rounded-md bg-brand px-6 py-3 text-white hover:bg-brand-dark">Claim Your Market Plan</Link>
           </div>
         </div>
       </section>
@@ -163,10 +164,14 @@ function Contact() {
           <textarea name="message" rows="4" className="mt-1 w-full border rounded-md px-3 py-2" />
         </div>
 
-        <div className="flex items-start gap-2">
-          <input id="sms-consent" type="checkbox" name="smsConsent" className="mt-1" required />
+        <div className="flex items-start gap-3">
+          <input id="contact-sms-consent" type="checkbox" name="smsConsent" className="mt-1" required />
           <div className="text-sm text-gray-700">
-            By entering your phone number and submitting this form, you agree to receive transactional SMS from TouchPointPlus for onboarding and account-related updates at the number provided. Msg & data rates may apply. Message frequency varies. Reply STOP to cancel, HELP for help. See our <Link to="/terms" className="underline">Terms</Link> and <Link to="/privacy" className="underline">Privacy Policy</Link>.
+            <label htmlFor="contact-sms-consent" className="cursor-pointer">
+              I agree to receive marketing messaging from TouchPointPlus at the phone number provided above. 
+              I understand I will receive up to 2 messages per month, data rates may apply, reply STOP to opt out. 
+              See our <Link to="/privacy" className="text-blue-600 hover:underline">Privacy Policy</Link> and <Link to="/terms" className="text-blue-600 hover:underline">Terms of Service</Link>.
+            </label>
           </div>
         </div>
 
@@ -215,6 +220,68 @@ function Privacy() {
   )
 }
 
+function Signup() {
+  return (
+    <div className="max-w-2xl mx-auto px-4 py-16">
+      <div className="text-center mb-8">
+        <h1 className="text-3xl font-bold text-gray-900">Join TouchPointPlus</h1>
+        <p className="mt-2 text-gray-700">Get started with your real estate marketing solution</p>
+      </div>
+      
+      <form name="signup" method="POST" data-netlify="true" netlify-honeypot="bot-field" className="space-y-6 border rounded-lg p-8 bg-white">
+        <input type="hidden" name="form-name" value="signup" />
+        <input type="hidden" name="bot-field" />
+        
+        <div className="grid md:grid-cols-2 gap-4">
+          <div>
+            <label className="block text-sm font-medium text-gray-700">First Name</label>
+            <input name="firstName" className="mt-1 w-full border rounded-md px-3 py-2" required />
+          </div>
+          <div>
+            <label className="block text-sm font-medium text-gray-700">Last Name</label>
+            <input name="lastName" className="mt-1 w-full border rounded-md px-3 py-2" required />
+          </div>
+        </div>
+        
+        <div>
+          <label className="block text-sm font-medium text-gray-700">Email</label>
+          <input type="email" name="email" className="mt-1 w-full border rounded-md px-3 py-2" required />
+        </div>
+        
+        <div>
+          <label className="block text-sm font-medium text-gray-700">Your phone number</label>
+          <input type="tel" name="phone" className="mt-1 w-full border rounded-md px-3 py-2" required />
+        </div>
+        
+        <div>
+          <label className="block text-sm font-medium text-gray-700">Company</label>
+          <input name="company" className="mt-1 w-full border rounded-md px-3 py-2" />
+        </div>
+        
+        <div>
+          <label className="block text-sm font-medium text-gray-700">How can we help?</label>
+          <textarea name="message" rows="4" className="mt-1 w-full border rounded-md px-3 py-2" />
+        </div>
+
+        <div className="flex items-start gap-3">
+          <input id="sms-consent" type="checkbox" name="smsConsent" className="mt-1" required />
+          <div className="text-sm text-gray-700">
+            <label htmlFor="sms-consent" className="cursor-pointer">
+              I agree to receive marketing messaging from TouchPointPlus at the phone number provided above. 
+              I understand I will receive up to 2 messages per month, data rates may apply, reply STOP to opt out. 
+              See our <Link to="/privacy" className="text-blue-600 hover:underline">Privacy Policy</Link> and <Link to="/terms" className="text-blue-600 hover:underline">Terms of Service</Link>.
+            </label>
+          </div>
+        </div>
+
+        <button type="submit" className="w-full inline-flex items-center justify-center rounded-md bg-brand px-6 py-3 text-white hover:bg-brand-dark">
+          Join Now
+        </button>
+      </form>
+    </div>
+  )
+}
+
 function Terms() {
   return (
     <div className="max-w-3xl mx-auto px-4 py-16 prose">
@@ -250,6 +317,7 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/services" element={<Services />} />
+            <Route path="/signup" element={<Signup />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/privacy" element={<Privacy />} />
             <Route path="/terms" element={<Terms />} />
