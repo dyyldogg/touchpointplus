@@ -40,7 +40,7 @@ function Footer() {
               TouchPointPlus
             </div>
             <p className="text-sm text-gray-600 leading-relaxed">
-              Smart client messaging for real estate professionals.
+              Client management and engagement platform for real estate teams.
             </p>
           </div>
           <div>
@@ -90,15 +90,15 @@ function Home() {
           <div className="text-center max-w-4xl mx-auto">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/60 backdrop-blur-sm rounded-full text-sm font-medium text-purple-700 mb-6 border border-purple-100">
               <span className="w-2 h-2 bg-purple-600 rounded-full animate-pulse"></span>
-              Client Communication Platform
+              Client Relationship Platform
             </div>
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-gray-900 mb-6">
-              Smart Messaging That Keeps{' '}
-              <span className="bg-gradient-to-r from-purple-600 via-blue-600 to-cyan-600 bg-clip-text text-transparent">Clients Connected</span>
+              The Client Platform Built for{' '}
+              <span className="bg-gradient-to-r from-purple-600 via-blue-600 to-cyan-600 bg-clip-text text-transparent">Real Estate</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 mb-10 leading-relaxed max-w-3xl mx-auto">
-              Automated appointment reminders, service updates, and billing notifications that your clients actually want to receive. 
-              Built for real estate teams who value compliance and clarity.
+              Manage clients, track interactions, automate communications, and analyze engagement—all in one place. 
+              Built specifically for real estate teams who need clarity and control.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link 
@@ -122,44 +122,44 @@ function Home() {
       <section className="max-w-7xl mx-auto px-6 py-20">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            How It Works
+            Complete Client Management
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Simple, compliant messaging with built-in intelligence and complete transparency.
+            Everything you need to manage client relationships, from first contact to closing and beyond.
           </p>
         </div>
         <div className="grid md:grid-cols-3 gap-8">
           <div className="p-8 bg-white rounded-2xl border border-gray-100 hover:border-purple-200 hover:shadow-xl transition-all duration-300">
             <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-blue-500 rounded-xl mb-6 flex items-center justify-center">
               <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
               </svg>
             </div>
-            <h3 className="text-xl font-bold text-gray-900 mb-3">Smart Timing</h3>
+            <h3 className="text-xl font-bold text-gray-900 mb-3">Client Database</h3>
             <p className="text-gray-600 leading-relaxed">
-              Messages arrive when clients are most likely to see them. Our system learns from engagement patterns to optimize delivery windows without being intrusive.
+              Centralized contact management with full interaction history, preferences, and custom fields. Search, filter, and segment your client base instantly.
             </p>
           </div>
           <div className="p-8 bg-white rounded-2xl border border-gray-100 hover:border-purple-200 hover:shadow-xl transition-all duration-300">
             <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-xl mb-6 flex items-center justify-center">
               <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
               </svg>
             </div>
-            <h3 className="text-xl font-bold text-gray-900 mb-3">Always Compliant</h3>
+            <h3 className="text-xl font-bold text-gray-900 mb-3">Engagement Analytics</h3>
             <p className="text-gray-600 leading-relaxed">
-              Consent tracking, opt-out handling, and audit logs are built in. Every message includes proper disclosures and we maintain complete records for you.
+              Track every touchpoint with detailed analytics. See response rates, communication patterns, and identify your most engaged clients at a glance.
             </p>
           </div>
           <div className="p-8 bg-white rounded-2xl border border-gray-100 hover:border-purple-200 hover:shadow-xl transition-all duration-300">
             <div className="w-12 h-12 bg-gradient-to-br from-cyan-500 to-teal-500 rounded-xl mb-6 flex items-center justify-center">
               <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
             </div>
-            <h3 className="text-xl font-bold text-gray-900 mb-3">Clear Insights</h3>
+            <h3 className="text-xl font-bold text-gray-900 mb-3">Automated Workflows</h3>
             <p className="text-gray-600 leading-relaxed">
-              See delivery status, open rates, and response patterns in real-time. Know exactly which messages are working and which clients are engaging.
+              Set up appointment reminders, follow-up sequences, and status updates that run automatically. Your clients stay informed without manual effort.
             </p>
           </div>
         </div>
@@ -170,22 +170,22 @@ function Home() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Everything You Need
+              Platform Features
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              A complete platform for client communications, from first contact to ongoing engagement.
+              A complete toolkit for managing and engaging your client base.
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { name: 'Appointment Reminders', desc: 'Automated scheduling notifications' },
-              { name: 'Service Updates', desc: 'Project status and milestone tracking' },
-              { name: 'Billing Notifications', desc: 'Invoice confirmations and receipts' },
-              { name: 'Client Portal', desc: 'Self-service preference management' },
-              { name: 'Two-Way Messaging', desc: 'Respond to client questions' },
-              { name: 'Message Templates', desc: 'Pre-built compliant messaging' },
-              { name: 'Delivery Reports', desc: 'Track every message sent' },
-              { name: 'Consent Management', desc: 'Built-in opt-in/opt-out handling' }
+              { name: 'Contact Management', desc: 'Comprehensive client profiles' },
+              { name: 'Activity Timeline', desc: 'Complete interaction history' },
+              { name: 'Automated Messaging', desc: 'Smart communication workflows' },
+              { name: 'Client Segmentation', desc: 'Group and target audiences' },
+              { name: 'Engagement Scoring', desc: 'Identify active vs. cold leads' },
+              { name: 'Reporting Dashboard', desc: 'Real-time performance metrics' },
+              { name: 'Client Portal Access', desc: 'Self-service for clients' },
+              { name: 'Compliance Tracking', desc: 'Automated consent management' }
             ].map((feature, i) => (
               <div key={i} className="p-6 bg-white rounded-xl border border-gray-100">
                 <div className="text-base font-semibold text-gray-900 mb-2">{feature.name}</div>
@@ -201,11 +201,11 @@ function Home() {
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Messages That Matter
+              Keep Clients in the Loop
             </h2>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              We focus on transactional messages—the kind clients need and expect. Appointment confirmations, 
-              service updates, billing notices. No marketing fluff, just helpful information at the right time.
+              TouchPointPlus automatically sends the messages your clients need—appointment confirmations, 
+              service updates, and important notices. Set it up once, and your communication runs on autopilot.
             </p>
             <div className="space-y-6">
               <div className="flex gap-4">
@@ -300,90 +300,90 @@ function Platform() {
           The Platform
         </h1>
         <p className="text-xl text-gray-600 mb-12 leading-relaxed">
-          TouchPointPlus handles the complexity of client messaging so you can focus on your business. 
-          From consent management to delivery tracking, everything works together seamlessly.
+          TouchPointPlus is your command center for client relationships. Track every interaction, 
+          analyze engagement patterns, and automate communication—all from one unified dashboard.
         </p>
       </div>
       
       <div className="space-y-16">
         <div>
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">Platform Capabilities</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">Core Modules</h2>
           <div className="grid md:grid-cols-2 gap-6">
             <div className="p-6 bg-white rounded-xl border border-gray-200">
-              <h3 className="text-lg font-semibold text-gray-900 mb-3">Message Optimization</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-3">Client Relationship Manager</h3>
               <p className="text-gray-600 mb-4">
-                Our system learns when clients are most likely to engage and adjusts timing accordingly.
+                Centralized database for all client information with full history tracking and custom fields.
               </p>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>• Smart send-time prediction</li>
-                <li>• Personalized message content</li>
-                <li>• Engagement tracking</li>
+                <li>• Contact profiles with custom data</li>
+                <li>• Interaction timeline view</li>
+                <li>• Smart tagging and segmentation</li>
               </ul>
             </div>
             <div className="p-6 bg-white rounded-xl border border-gray-200">
-              <h3 className="text-lg font-semibold text-gray-900 mb-3">Compliance Management</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-3">Analytics & Reporting</h3>
               <p className="text-gray-600 mb-4">
-                Built-in TCPA compliance with opt-in tracking, consent management, and full audit trails.
+                Track performance metrics, engagement trends, and client behavior patterns over time.
               </p>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>• Automated opt-in/opt-out handling</li>
-                <li>• Timestamped consent records</li>
-                <li>• STOP/HELP keyword processing</li>
+                <li>• Engagement dashboards</li>
+                <li>• Response rate analytics</li>
+                <li>• Custom report builder</li>
               </ul>
             </div>
             <div className="p-6 bg-white rounded-xl border border-gray-200">
-              <h3 className="text-lg font-semibold text-gray-900 mb-3">Real-Time Analytics</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-3">Communication Automation</h3>
               <p className="text-gray-600 mb-4">
-                See exactly what's happening with your messages as it happens.
+                Set up workflows for appointment reminders, follow-ups, and status updates.
               </p>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>• Live delivery tracking</li>
-                <li>• Engagement metrics</li>
-                <li>• Response rate monitoring</li>
+                <li>• Trigger-based messaging</li>
+                <li>• Template library</li>
+                <li>• Schedule management</li>
               </ul>
             </div>
             <div className="p-6 bg-white rounded-xl border border-gray-200">
-              <h3 className="text-lg font-semibold text-gray-900 mb-3">Enterprise Security</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-3">Compliance & Security</h3>
               <p className="text-gray-600 mb-4">
-                Bank-grade encryption and access controls protect your client data.
+                Automated consent tracking, audit logs, and enterprise-grade data protection.
               </p>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>• End-to-end encryption</li>
-                <li>• Role-based access control</li>
-                <li>• Complete audit logs</li>
+                <li>• TCPA compliance built-in</li>
+                <li>• Encrypted data storage</li>
+                <li>• Activity audit trails</li>
               </ul>
             </div>
           </div>
         </div>
 
         <div className="bg-gray-50 rounded-2xl p-8 border border-gray-200">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">Under the Hood</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">Data You Can Act On</h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div>
-              <div className="text-sm font-semibold text-purple-600 mb-3">Intelligent Delivery</div>
+              <div className="text-sm font-semibold text-purple-600 mb-3">Client Insights</div>
               <ul className="space-y-2 text-sm text-gray-700">
-                <li>Machine learning for timing</li>
-                <li>Intent recognition</li>
-                <li>Engagement analysis</li>
-                <li>Response prediction</li>
+                <li>Engagement scoring by client</li>
+                <li>Communication preference tracking</li>
+                <li>Response pattern analysis</li>
+                <li>Lead temperature indicators</li>
               </ul>
             </div>
             <div>
-              <div className="text-sm font-semibold text-blue-600 mb-3">Data & Storage</div>
+              <div className="text-sm font-semibold text-blue-600 mb-3">Performance Metrics</div>
               <ul className="space-y-2 text-sm text-gray-700">
-                <li>Real-time analytics engine</li>
-                <li>Secure database storage</li>
-                <li>Live data synchronization</li>
-                <li>Encrypted archives</li>
+                <li>Message delivery rates</li>
+                <li>Open and response rates</li>
+                <li>Time-to-response tracking</li>
+                <li>Campaign effectiveness</li>
               </ul>
             </div>
             <div>
-              <div className="text-sm font-semibold text-cyan-600 mb-3">Security</div>
+              <div className="text-sm font-semibold text-cyan-600 mb-3">Workflow Analytics</div>
               <ul className="space-y-2 text-sm text-gray-700">
-                <li>Enterprise access control</li>
-                <li>End-to-end encryption</li>
-                <li>Activity monitoring</li>
-                <li>Network isolation</li>
+                <li>Automation performance</li>
+                <li>Drop-off point identification</li>
+                <li>Conversion funnel tracking</li>
+                <li>ROI measurement</li>
               </ul>
             </div>
           </div>
