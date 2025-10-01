@@ -40,7 +40,7 @@ function Footer() {
               TouchPointPlus
             </div>
             <p className="text-sm text-gray-600 leading-relaxed">
-              AI-powered client communications platform for modern real estate teams.
+              Smart client messaging for real estate professionals.
             </p>
           </div>
           <div>
@@ -71,11 +71,8 @@ function Footer() {
         <div className="pt-8 border-t border-gray-200 text-sm text-gray-600">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div>© {new Date().getFullYear()} TouchPointPlus, LLC. All rights reserved.</div>
-            <div className="flex items-center gap-2 text-xs">
-              <span>Powered by</span>
-              <span className="font-semibold">Google Cloud</span>
-              <span>·</span>
-              <span className="font-semibold">Vertex AI</span>
+            <div className="text-xs text-gray-500">
+              Built for compliance and reliability
             </div>
           </div>
         </div>
@@ -93,15 +90,15 @@ function Home() {
           <div className="text-center max-w-4xl mx-auto">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/60 backdrop-blur-sm rounded-full text-sm font-medium text-purple-700 mb-6 border border-purple-100">
               <span className="w-2 h-2 bg-purple-600 rounded-full animate-pulse"></span>
-              AI-Powered Client Communications
+              Client Communication Platform
             </div>
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-gray-900 mb-6">
-              Intelligent Client Engagement for{' '}
-              <span className="bg-gradient-to-r from-purple-600 via-blue-600 to-cyan-600 bg-clip-text text-transparent">Real Estate Teams</span>
+              Smart Messaging That Keeps{' '}
+              <span className="bg-gradient-to-r from-purple-600 via-blue-600 to-cyan-600 bg-clip-text text-transparent">Clients Connected</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 mb-10 leading-relaxed max-w-3xl mx-auto">
-              TouchPointPlus delivers AI-driven appointment reminders, service updates, and compliance-first communications. 
-              Built on Google Cloud with enterprise-grade security and intelligent message optimization.
+              Automated appointment reminders, service updates, and billing notifications that your clients actually want to receive. 
+              Built for real estate teams who value compliance and clarity.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link 
@@ -125,10 +122,10 @@ function Home() {
       <section className="max-w-7xl mx-auto px-6 py-20">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Built for Compliance, Powered by AI
+            How It Works
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Enterprise-grade client communications with intelligent delivery optimization and full audit trails.
+            Simple, compliant messaging with built-in intelligence and complete transparency.
           </p>
         </div>
         <div className="grid md:grid-cols-3 gap-8">
@@ -138,9 +135,9 @@ function Home() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
               </svg>
             </div>
-            <h3 className="text-xl font-bold text-gray-900 mb-3">Intelligent Message Delivery</h3>
+            <h3 className="text-xl font-bold text-gray-900 mb-3">Smart Timing</h3>
             <p className="text-gray-600 leading-relaxed">
-              AI-optimized send times and message personalization. Vertex AI analyzes client engagement patterns to maximize response rates while maintaining compliance.
+              Messages arrive when clients are most likely to see them. Our system learns from engagement patterns to optimize delivery windows without being intrusive.
             </p>
           </div>
           <div className="p-8 bg-white rounded-2xl border border-gray-100 hover:border-purple-200 hover:shadow-xl transition-all duration-300">
@@ -149,9 +146,9 @@ function Home() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
               </svg>
             </div>
-            <h3 className="text-xl font-bold text-gray-900 mb-3">Compliance-First Architecture</h3>
+            <h3 className="text-xl font-bold text-gray-900 mb-3">Always Compliant</h3>
             <p className="text-gray-600 leading-relaxed">
-              Built-in opt-in management, audit logs, and TCPA compliance. Every message tracked with timestamps, delivery status, and consent verification.
+              Consent tracking, opt-out handling, and audit logs are built in. Every message includes proper disclosures and we maintain complete records for you.
             </p>
           </div>
           <div className="p-8 bg-white rounded-2xl border border-gray-100 hover:border-purple-200 hover:shadow-xl transition-all duration-300">
@@ -160,39 +157,39 @@ function Home() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
               </svg>
             </div>
-            <h3 className="text-xl font-bold text-gray-900 mb-3">Real-Time Analytics</h3>
+            <h3 className="text-xl font-bold text-gray-900 mb-3">Clear Insights</h3>
             <p className="text-gray-600 leading-relaxed">
-              BigQuery-powered insights on delivery rates, engagement metrics, and client preferences. Monitor campaign performance with millisecond latency.
+              See delivery status, open rates, and response patterns in real-time. Know exactly which messages are working and which clients are engaging.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Tech Stack */}
+      {/* Product Features */}
       <section className="bg-gray-50 py-20">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Enterprise Infrastructure
+              Everything You Need
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Built on Google Cloud Platform with cutting-edge AI and security capabilities.
+              A complete platform for client communications, from first contact to ongoing engagement.
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { name: 'Vertex AI', desc: 'Message optimization & intent classification' },
-              { name: 'BigQuery', desc: 'Real-time analytics & delivery metrics' },
-              { name: 'Cloud SQL', desc: 'Secure opt-in records & audit logs' },
-              { name: 'Cloud IAM', desc: 'Enterprise access control' },
-              { name: 'Cloud KMS', desc: 'End-to-end encryption' },
-              { name: 'Firestore', desc: 'Client preferences & session data' },
-              { name: 'Cloud Functions', desc: 'Event-driven message triggers' },
-              { name: 'Cloud Monitoring', desc: 'SLA tracking & alerting' }
-            ].map((tech, i) => (
+              { name: 'Appointment Reminders', desc: 'Automated scheduling notifications' },
+              { name: 'Service Updates', desc: 'Project status and milestone tracking' },
+              { name: 'Billing Notifications', desc: 'Invoice confirmations and receipts' },
+              { name: 'Client Portal', desc: 'Self-service preference management' },
+              { name: 'Two-Way Messaging', desc: 'Respond to client questions' },
+              { name: 'Message Templates', desc: 'Pre-built compliant messaging' },
+              { name: 'Delivery Reports', desc: 'Track every message sent' },
+              { name: 'Consent Management', desc: 'Built-in opt-in/opt-out handling' }
+            ].map((feature, i) => (
               <div key={i} className="p-6 bg-white rounded-xl border border-gray-100">
-                <div className="text-base font-semibold text-gray-900 mb-2">{tech.name}</div>
-                <div className="text-sm text-gray-600">{tech.desc}</div>
+                <div className="text-base font-semibold text-gray-900 mb-2">{feature.name}</div>
+                <div className="text-sm text-gray-600">{feature.desc}</div>
               </div>
             ))}
           </div>
@@ -204,11 +201,11 @@ function Home() {
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Transactional Communications Done Right
+              Messages That Matter
             </h2>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              TouchPointPlus specializes in service-oriented client communications. Our platform handles appointment reminders, 
-              billing confirmations, and service status updates with full compliance and audit trails.
+              We focus on transactional messages—the kind clients need and expect. Appointment confirmations, 
+              service updates, billing notices. No marketing fluff, just helpful information at the right time.
             </p>
             <div className="space-y-6">
               <div className="flex gap-4">
@@ -219,7 +216,7 @@ function Home() {
                 </div>
                 <div>
                   <div className="font-semibold text-gray-900 mb-1">Appointment Reminders</div>
-                  <div className="text-gray-600">AI-optimized scheduling notifications with smart send-time prediction</div>
+                  <div className="text-gray-600">Reduce no-shows with timely notifications sent at the optimal moment</div>
                 </div>
               </div>
               <div className="flex gap-4">
@@ -230,7 +227,7 @@ function Home() {
                 </div>
                 <div>
                   <div className="font-semibold text-gray-900 mb-1">Service Updates</div>
-                  <div className="text-gray-600">Real-time project status notifications with delivery confirmation</div>
+                  <div className="text-gray-600">Keep clients informed about project milestones and next steps</div>
                 </div>
               </div>
               <div className="flex gap-4">
@@ -240,8 +237,8 @@ function Home() {
                   </svg>
                 </div>
                 <div>
-                  <div className="font-semibold text-gray-900 mb-1">Billing Confirmations</div>
-                  <div className="text-gray-600">Secure invoice notifications with audit trail and compliance logging</div>
+                  <div className="font-semibold text-gray-900 mb-1">Billing Notifications</div>
+                  <div className="text-gray-600">Automated invoice and payment confirmations with complete records</div>
                 </div>
               </div>
             </div>
@@ -270,10 +267,10 @@ function Home() {
       <section className="bg-gradient-to-br from-purple-600 via-blue-600 to-cyan-600 py-20">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
-            Ready to Transform Client Communications?
+            Ready to Get Started?
           </h2>
           <p className="text-xl text-white/90 mb-10">
-            Join leading real estate teams using AI-powered messaging with full compliance.
+            Join real estate teams who keep clients informed without the hassle.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link 
@@ -300,11 +297,11 @@ function Platform() {
     <div className="max-w-7xl mx-auto px-6 py-20">
       <div className="max-w-3xl">
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-          AI-Powered Communications Platform
+          The Platform
         </h1>
         <p className="text-xl text-gray-600 mb-12 leading-relaxed">
-          TouchPointPlus combines enterprise messaging infrastructure with intelligent AI capabilities 
-          to deliver compliant, effective client communications at scale.
+          TouchPointPlus handles the complexity of client messaging so you can focus on your business. 
+          From consent management to delivery tracking, everything works together seamlessly.
         </p>
       </div>
       
@@ -315,12 +312,12 @@ function Platform() {
             <div className="p-6 bg-white rounded-xl border border-gray-200">
               <h3 className="text-lg font-semibold text-gray-900 mb-3">Message Optimization</h3>
               <p className="text-gray-600 mb-4">
-                Vertex AI analyzes engagement patterns to optimize send times, message content, and delivery methods.
+                Our system learns when clients are most likely to engage and adjusts timing accordingly.
               </p>
               <ul className="space-y-2 text-sm text-gray-600">
                 <li>• Smart send-time prediction</li>
-                <li>• Content personalization</li>
-                <li>• Engagement scoring</li>
+                <li>• Personalized message content</li>
+                <li>• Engagement tracking</li>
               </ul>
             </div>
             <div className="p-6 bg-white rounded-xl border border-gray-200">
@@ -337,56 +334,56 @@ function Platform() {
             <div className="p-6 bg-white rounded-xl border border-gray-200">
               <h3 className="text-lg font-semibold text-gray-900 mb-3">Real-Time Analytics</h3>
               <p className="text-gray-600 mb-4">
-                BigQuery-powered dashboards provide instant insights into delivery rates and client engagement.
+                See exactly what's happening with your messages as it happens.
               </p>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>• Delivery tracking</li>
+                <li>• Live delivery tracking</li>
                 <li>• Engagement metrics</li>
-                <li>• Campaign performance</li>
+                <li>• Response rate monitoring</li>
               </ul>
             </div>
             <div className="p-6 bg-white rounded-xl border border-gray-200">
               <h3 className="text-lg font-semibold text-gray-900 mb-3">Enterprise Security</h3>
               <p className="text-gray-600 mb-4">
-                Cloud KMS encryption, IAM access control, and SOC 2-ready infrastructure.
+                Bank-grade encryption and access controls protect your client data.
               </p>
               <ul className="space-y-2 text-sm text-gray-600">
                 <li>• End-to-end encryption</li>
                 <li>• Role-based access control</li>
-                <li>• Comprehensive audit logs</li>
+                <li>• Complete audit logs</li>
               </ul>
             </div>
           </div>
         </div>
 
         <div className="bg-gray-50 rounded-2xl p-8 border border-gray-200">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">Technology Stack</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">Under the Hood</h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div>
-              <div className="text-sm font-semibold text-purple-600 mb-3">AI & Machine Learning</div>
+              <div className="text-sm font-semibold text-purple-600 mb-3">Intelligent Delivery</div>
               <ul className="space-y-2 text-sm text-gray-700">
-                <li>Vertex AI for message optimization</li>
-                <li>Intent classification</li>
-                <li>Sentiment analysis</li>
-                <li>Engagement prediction</li>
+                <li>Machine learning for timing</li>
+                <li>Intent recognition</li>
+                <li>Engagement analysis</li>
+                <li>Response prediction</li>
               </ul>
             </div>
             <div>
-              <div className="text-sm font-semibold text-blue-600 mb-3">Data & Analytics</div>
+              <div className="text-sm font-semibold text-blue-600 mb-3">Data & Storage</div>
               <ul className="space-y-2 text-sm text-gray-700">
-                <li>BigQuery for analytics</li>
-                <li>Cloud SQL for records</li>
-                <li>Firestore for real-time data</li>
-                <li>Cloud Storage for archives</li>
+                <li>Real-time analytics engine</li>
+                <li>Secure database storage</li>
+                <li>Live data synchronization</li>
+                <li>Encrypted archives</li>
               </ul>
             </div>
             <div>
-              <div className="text-sm font-semibold text-cyan-600 mb-3">Security & Infrastructure</div>
+              <div className="text-sm font-semibold text-cyan-600 mb-3">Security</div>
               <ul className="space-y-2 text-sm text-gray-700">
-                <li>Cloud IAM access control</li>
-                <li>Cloud KMS encryption</li>
-                <li>Cloud Monitoring & Logging</li>
-                <li>VPC security</li>
+                <li>Enterprise access control</li>
+                <li>End-to-end encryption</li>
+                <li>Activity monitoring</li>
+                <li>Network isolation</li>
               </ul>
             </div>
           </div>
